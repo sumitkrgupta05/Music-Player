@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 55px;
+  background-color: black;
+  color: white;
+  align-items: center;
+}
+
+nav ul li {
+  font-family: sans-serif;
+  font-size: small;
+  padding: 0 12px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+.brand img {
+  width: 50px;
+}
+
+.brand span {
+  width: 95px;
+  font-weight: 550;
+  font-size: 1.3rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  min-height: 63vh;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 10px;
+  padding: 32px;
+  /* background-image: url(../bgimg/bg1.webp); */
+  background-image: url(../bgimg/bg2.jpg);
+  /* background-image: url(../bgimg/bg.jpg); */
+  background-size: cover;
+}
+
+.songList h1 {
+  font-family: cursive;
+  margin-top: -20px;
+  font-size: 25px;
+}
+
+.bottom {
+  position: sticky;
+  height: 102px;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.icons {
+  margin: 14px;
+  color: white;
+  display: flex;
+}
+
+.icons img {
+  cursor: pointer;
+  height: 35px;
+  width: 40px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+#myProgressBar {
+  width: 72vw;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 24px;
+}
+
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  width: 80%;
+  color: black;
+  margin: 8px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+
+.songItem img {
+  width: 45px;
+  margin: 0 23px;
+}
+
+#time {
+  margin: 0 23px;
+}
+
+.inner-btn {
+  height: 23px;
+  cursor: pointer;
+}
+
+.songInfo {
+  position: absolute;
+  left: 11vw;
+  font-variant: small-caps;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.6s ease-in;
+}
+
+#masterPlay {
+  padding: 0 10px;
+}
